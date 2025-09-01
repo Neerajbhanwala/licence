@@ -69,6 +69,7 @@ function App() {
                 <div className="photo-left">
                   <img
                     src={!image ? admin : URL.createObjectURL(image)}
+                    alt="user"
                     height="90%"
                     Width="90%"
                   />
