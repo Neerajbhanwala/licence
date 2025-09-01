@@ -31,13 +31,21 @@ body {
   }
   .front{
     border: 2px solid #000;
-    /* background-image: url("D:\Code\aadhar\demo\src\Images\mainbg.png");
-    background-size: 100% 100%; */
+    /* background-image: url("C:\Users\kukaa\OneDrive\Desktop\Licence\setup.png");
+    background-size: 100% 100%;  */
     padding: 10px;
     display: flex;
     justify-self: center;
     align-items: center;
+    z-index: 100;
+    position: relative;;
   }
+
+  .front .bgimg{
+    z-index: -100;
+    position:absolute ;
+  }
+
   .left-part{
     padding-top:20px ;
     width:35%;
@@ -84,20 +92,21 @@ body {
     line-height: 1px;
   }
   .validity{
-    font-weight: 700;
-    font-size: 13px;
+    font-weight: 500;
+    font-size: 14px;
     sup{
       font-size: 14px;
+      font-weight: 700;
     }
   }
   .carr{
       font-weight: 700;
-      font-size: 14px;
+      font-size: 15px;
   }
 
   .trs{
     font-family: "Edu AU VIC WA NT Dots", cursive;
-    font-size: 11px;
+    font-size: 13px;
     text-align: right;
     padding-right: 20px;
     font-weight:bold;
@@ -109,7 +118,7 @@ body {
     /* border:1px solid red; */
     height:20px;
     font-weight: 500;
-    padding-top: 8px;
+    padding-top: 5px;
   }
 
   table{
@@ -131,11 +140,11 @@ body {
   }
   
 .signatures{
-  padding-top: 20px;
+  padding-top: 18px;
   height:50px;
-  font-size: 11px;
-  line-height: 3px;
-  text-align: left;
+  font-size: 13px;
+  line-height: 5px;
+  text-align: right;
   display: flex;
   width:90%;
   justify-content:center;
@@ -143,19 +152,19 @@ body {
 }
 .HRMain{
   position: absolute;
-  right:180px;
+  right:30px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  top:550px;
+  top:140px;
 }
 .hr{
-  border:3px solid #000;
-  height: 35px;
-  width:35px;
+  border:4px solid #000;
+  height: 45px;
+  width:45px;
   border-radius: 100%;
-  font-size: 17px;
+  font-size: 22px;
   font-weight: bold;
   display: flex;
   justify-content: center;
@@ -166,6 +175,7 @@ body {
   writing-mode: vertical-lr;
   transform: rotate(180deg);
   margin-left: 10px;
+  font-size: 18px;
 }
 
 
@@ -225,13 +235,18 @@ align-items: center;
     }
 
     .frame{
-      width:78.5%;
-      height:37.5%;
+      width:79%;
+      height:38%;
       border: 3px solid #fff;
     }
     button{
       display: none;
     }
+
+
+
   }
+
+
   
   
