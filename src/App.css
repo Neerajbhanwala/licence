@@ -152,7 +152,7 @@ body {
 }
 .HRMain{
   position: absolute;
-  right:30px;
+  right:40px;
   display: flex;
   justify-content: center;
   align-items: center;
