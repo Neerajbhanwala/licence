@@ -269,7 +269,7 @@ function App() {
         <input
           type="text"
           style={{ textTransform: "uppercase" }}
-          placeholder="SDM Authority city"
+          placeholder="SDM Authority city (Gohana, Rohtak"
           value={SDMName}
           onChange={(e) => setSDMName(e.target.value)}
           required
@@ -277,7 +277,7 @@ function App() {
 
  <input
           type="text"
-          placeholder="Vehicle Registration number"
+          placeholder="Registration Dist Code (11, 12)"
           value={registrationNumber}
           onChange={(e) => setRegistrationNumber(e.target.value)}
           required
